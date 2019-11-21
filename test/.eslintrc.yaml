@@ -1,0 +1,3 @@
+---
+rules:
+  no-unused-expressions: off # allow chai expect syntax

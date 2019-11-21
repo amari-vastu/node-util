@@ -1,0 +1,41 @@
+{
+  "name": "@amari-vastu/util",
+  "version": "0.1.0",
+  "description": "General utilities for nodejs",
+  "main": "index.js",
+  "scripts": {
+    "pretest": "eslint .",
+    "test": "nyc --silent=true mocha --recursive test/unit test/integration",
+    "posttest": "nyc report"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amari-vastu/node-util.git"
+  },
+  "keywords": [
+    "dry",
+    "utility"
+  ],
+  "author": "Antony Donovan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/amari-vastu/node-util/issues"
+  },
+  "homepage": "https://github.com/amari-vastu/node-util#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "dotenv": "^8.2.0",
+    "eslint": "^6.6.0",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-node": "^10.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "mocha": "^6.2.2",
+    "nyc": "^14.1.1",
+    "pino-pretty": "^3.3.0",
+    "sinon": "^7.5.0",
+    "sinon-chai": "^3.3.0"
+  }
+}

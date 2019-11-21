@@ -1,0 +1,12 @@
+{
+  "extends": "standard",
+  "root": true,
+  "rules": {
+    "complexity": [
+      "error", {
+        "max": 10
+      } ],
+    "no-var": "error",
+    "prefer-const": "error"
+  }
+}
