@@ -7,6 +7,7 @@
         "max": 10
       } ],
     "no-var": "error",
+    "operator-linebreak": ["error", "after"],
     "prefer-const": "error"
   }
 }
